@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<title>Redirection to Spooky Launch URL Protocol</title>
+	</head>
+
+	<body>
+		<script>
+		window.location.href = 'spookylaunch://' + window.location.href.substring(window.location.href.indexOf('#') + 1);
+		</script>
+	</body>
+</html>
