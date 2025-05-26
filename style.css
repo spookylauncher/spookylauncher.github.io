@@ -84,7 +84,7 @@ h1, h2, p, span, button, #download-button, a {
   transition: 0.3s;
 }
 
-#discord-button {
+.footer-button {
   position: relative;
   right: 15px;
   bottom: 25px;
@@ -99,12 +99,16 @@ h1, h2, p, span, button, #download-button, a {
   background-image: url('icon_256.png');
 }
 
-#discord-icon {
+.footer-icon {
   width: 100px;
   height: 100px;
   position: relative;
   left: 15px;
   bottom: 25%;
+}
+
+#github-button {
+  left: 15px;
 }
 
 header {
